@@ -13,29 +13,36 @@ import java.util.Scanner;
  */
 public class ejer7 {
     public static void main(String[] args) {
+        //-------------ATRIBUTOS-------------
+        
         int cantidad=0;
         int x=0;
         int y=0;
         
+        //-----------------------------------
+        
         Random numAleatorio = new Random();
         Scanner teclado= new Scanner(System.in);
+        
+        //-----------------------------------
+        
         
         System.out.println("¿Cuántas posiciones queieres que tenga el array?");
         cantidad=teclado.nextInt();
                 
-        int[] ar1 = new int[cantidad];
+        int[] ar1 = new int[cantidad];  //creacion de los arrays 1 y 2
         int[] ar2 = new int[cantidad];
         
-        for (int i=0; i<=ar1.length -1; i++) {
+        for (int i=0; i<=ar1.length -1; i++) {  //bucle que rellena los arrays con numeros aleatorios
             
-            x = numAleatorio.nextInt(100 - 1 + 1) + 1;
-            ar1[i]=x;
+            x = numAleatorio.nextInt(100 - 1 + 1) + 1;  //crea numeros del 1 al 100
+            ar1[i]=x;   //los mete en la posicion del array i
                         
             y = numAleatorio.nextInt(100 - 1 + 1) + 1;
             ar2[i]=y;
         }
         
-        System.out.println("***************ARRAY1****************");
+        System.out.println("***************ARRAY1****************");    //salida por pantalla
         for (int i=0; i<=ar1.length -1; i++) {
             System.out.println("Posicion "+i+"º= "+ar1[i]);
         }
@@ -45,11 +52,18 @@ public class ejer7 {
             System.out.println("Posicion "+i+"º= "+ar2[i]);
         }
         
-        multiplicacion=multiplicador(a1,a2);
+        int multiplicacion=multiplicador(ar1,ar2);  //llamada al metodo para la multiplicacion
     }
     
+    
+    
+    //metodo para hacer la multiplicacion
     public static int multiplicador(int ar1[], int ar2[]){
+        int multiplicacion;
         
+        
+        
+        return multiplicacion;
     }
     
 }
