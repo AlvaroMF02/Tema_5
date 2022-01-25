@@ -45,7 +45,11 @@ public class ejer7 {
             System.out.println("Posicion "+i+"º= "+ar2[i]);
         }
         
+        multiplicacion=multiplicador(a1,a2);
     }
     
+    public static int multiplicador(int ar1[], int ar2[]){
+        
+    }
     
 }
