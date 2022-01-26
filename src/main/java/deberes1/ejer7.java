@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class ejer7 {
     public static void main(String[] args) {
-        //-------------ATRIBUTOS-------------
+        //---------------------------------
         
         int cantidad=0;
         int x=0;
@@ -51,24 +51,26 @@ public class ejer7 {
         for (int i=0; i<=ar2.length -1; i++) {
             System.out.println("Posicion "+i+"= "+ar2[i]);
         }
+
         
-        int multiplicacion=multiplicador(ar1,ar2);  //llamada al metodo para la multiplicacion
+        int []multiplicacion=multiplicador(ar1,ar2);  //llamada al metodo para la multiplicacion
     }
     
     
     
     //metodo para hacer la multiplicacion
-    public static int multiplicador(int ar1[], int ar2[]){
+    public static int[] multiplicador(int ar1[], int ar2[]){
         int multiplicacion=0;
+        int [] ar3=new int[ar1.length];
         
         System.out.println("\n***************MULTIPLICACIÓN****************");
         
         for (int i = 0; i < ar1.length; i++) {
-            multiplicacion=ar1[i]*ar2[i];
+            ar3[i]=ar1[i]*ar2[i];
             System.out.println("mult. nº"+i+"= "+multiplicacion);
         }        
         
-        return multiplicacion;
+        return ar3;
     }
     
 }
