@@ -13,7 +13,7 @@ package deberes1;
 //Instancia e inicializa el array en el programa, sin leer nada por teclado, con los siguientes 
 //valores {1, 2, 3, 4, 5, 6}.
 
-public class ejer1 {
+public class Ejer1 {
         public static void main(String[] args) {
             
             int suma=0;

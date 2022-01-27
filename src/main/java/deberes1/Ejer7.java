@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author alvaro
  */
-public class ejer7 {
+public class Ejer7 {
     public static void main(String[] args) {
         //---------------------------------
         

@@ -12,7 +12,9 @@ public class Ejer3 {
             arr[i]=7.5;
         }
         
-        
+        for (double i :arr) {
+            System.out.println(i);
+        }
         
     }
 }

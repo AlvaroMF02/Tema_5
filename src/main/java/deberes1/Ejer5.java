@@ -3,7 +3,7 @@ package deberes1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ejer5 {
+public class Ejer5 {
 
     private static int[] array = new int[10];
     private static int contadorPositivo = 0;
