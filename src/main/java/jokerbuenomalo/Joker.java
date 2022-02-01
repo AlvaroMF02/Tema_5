@@ -31,7 +31,7 @@ public class Joker {
         System.out.println("¿Cuál es su número de boleto?");
         bolUse=teclado.nextInt();
         
-        if()
+        //if()
         
         
         
