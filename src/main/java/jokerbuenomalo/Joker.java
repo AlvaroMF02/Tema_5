@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author alvaro
  */
 public class Joker {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //no esta acabao
         //----------------------------------
         
         Random numero = new Random();
