@@ -9,27 +9,20 @@ import java.util.Scanner;
 public class Ejer13 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        int num;
+        int i=0;
+        int [] arnum = new int[20];
         
-        int numColum;
-        int tamColum;
-        
-        
-        System.out.println("Indica la cantidad de columnas que quieres poner");
-        numColum=teclado.nextInt();
-        
-        int [] histograma = new int[numColum];
-        
-        
-        for (int i = 0; i < numColum; i++) {
-            System.out.println("\n Escriba el tamaño de cada columna [1-20]");
-            tamColum=teclado.nextInt();
+        do{
+            System.out.println("Escribe unos cuantos numeros :)");
+            num=teclado.nextInt();
             
-            histograma[i]=tamColum;
+            arnum[i]=num;
+            i++;
             
-            for (int j = 0; j < tamColum; j++) {
-                System.out.print("*");
-            }
-        }
+        }while (num!=0);
+    
+        
         
     }
 }
