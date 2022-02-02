@@ -22,7 +22,9 @@ public class Ejer13 {
             
         }while (num!=0);
     
-        
+        for (int j = 0; j < arnum.length; j++) {
+            System.out.println(arnum[i]);
+        }
         
     }
 }

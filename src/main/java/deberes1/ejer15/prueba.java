@@ -13,6 +13,6 @@ public class prueba {
     public static void main(String[] args) {
         LanzarMoneda prueba = new LanzarMoneda();
         
-        System.out.println(prueba);
+        System.out.println(prueba.simulacion());
     }
 }
