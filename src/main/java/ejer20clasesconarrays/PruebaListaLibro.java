@@ -1,4 +1,4 @@
-package ejer20;
+package ejer20clasesconarrays;
 
 /**
  *
