@@ -96,7 +96,7 @@ public class Peluca {
     //TOSTRING
     @Override
     public String toString() {
-        return "Peluca{" + "color=" + color + ", largo=" + largo + ", calidad=" + calidad + ", estilo=" + estilo + '}';
+        return "Peluca{" + "color: " + color + ", largo:" + largo + ", calidad:" + calidad + ", estilo:" + estilo + '}';
     }
     
     
