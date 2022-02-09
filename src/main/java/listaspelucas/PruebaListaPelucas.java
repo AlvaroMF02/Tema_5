@@ -22,7 +22,7 @@ public class PruebaListaPelucas {
         System.out.println("Hay "+catalogo.getCantidadPelucas()+" pelucas \n");
         
         //Enseña la peluca que se esta buscando,   funciona pero no muestra los otros datos
-        Peluca peluca=catalogo.buscarPorLargura(20.7);
+        Peluca peluca=catalogo.buscarColor("Negro");
         System.out.println("Peluca encontrada "+peluca+"\n");
         
         //Borrar peluca

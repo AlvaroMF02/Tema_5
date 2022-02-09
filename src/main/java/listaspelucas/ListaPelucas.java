@@ -44,7 +44,7 @@ public class ListaPelucas {
     
     
     public Peluca buscarColor(String color){           //Busca por color 
-        Peluca aux= new Peluca(color, 0, false, "");
+        Peluca aux= new Peluca(color, 0, false, "Rizado");
         
         int indice = lista.indexOf(aux);
         
@@ -55,16 +55,7 @@ public class ListaPelucas {
     }
     
     
-    public Peluca buscarPorLargura(double largo){       //Busca por largura
-        Peluca aux= new Peluca("", largo, false, "");
-        
-        int indice = lista.indexOf(aux);
-        
-        if (indice>=0){
-            return lista.get(indice);
-        }
-        return aux;
-    }
+   
     
     
     
