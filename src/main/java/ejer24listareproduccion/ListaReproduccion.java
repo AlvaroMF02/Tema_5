@@ -7,16 +7,25 @@ import java.util.ArrayList;
  */
 public class ListaReproduccion {
     //ATRIBUTO
-    ArrayList<Cancion> lista;
+    private ArrayList<Cancion> lista;
     
     
     //CONSTRUCTOR
-    public ListaReproduccion(ArrayList<Cancion> lista) {
+    public ListaReproduccion() {
         this.lista = new ArrayList<>();
     }
     
     
     //METODOS
+    
+    //rellenar array
+    public void insertarCancion(Cancion cancion){
+        if(cancion!=null){
+            lista.add(cancion);
+        }
+                                                                                                                                                                                                                                                                                                         
+    }
+    
     //cantidad de canciones
     public int getNumeroCanciones(){
         return lista.size();
@@ -31,10 +40,15 @@ public class ListaReproduccion {
         }
     }
     
-    public int escucharCancion(int posicion){
+    public Cancion escucharCancion(int posicion){
+        Cancion aux = new Cancion("", "", 0);
         
-      Cancion cancion= lista.get(cancion.toString());   //no se que es esto
+        int indice = lista.indexOf(posicion);
         
+        if (indice>=0){
+            return lista.get(indice);
+        }
+      return aux;
     }
     
     

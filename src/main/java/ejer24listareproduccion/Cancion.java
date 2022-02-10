@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ejer24listareproduccion;
 
 import java.util.Objects;
@@ -50,7 +46,7 @@ public class Cancion {
             return false;
         }
         final Cancion other = (Cancion) obj;
-        return Objects.equals(this.autor, other.autor); //PARA BUSCAR POR AUTOR 
+        return Objects.equals(this.nombre, other.autor); //PARA BUSCAR POR AUTOR 
     }
     
     
