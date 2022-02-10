@@ -17,7 +17,8 @@ public class ListaReproduccion {
     
     
     //METODOS
-    public int getNumeroCanciones(){ //muestra la cantidad de canciones 
+    //cantidad de canciones
+    public int getNumeroCanciones(){
         return lista.size();
     }
     
