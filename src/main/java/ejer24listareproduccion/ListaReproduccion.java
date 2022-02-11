@@ -51,8 +51,19 @@ public class ListaReproduccion {
       return aux;
     }
     
+    public Cancion cambiarCancion(int posicion, Cancion nombre){
+        //Cambia la cancion de la posicion por el nombre de una nueva
+        
+        if(lista.contains(posicion)){
+           lista.remove(posicion);
+            lista.add(nombre);
+        }
+        return ;
+    }
     
-    
+    public Cancion grabarCancion(Cancion cancion){
+        
+    }
     
     
     
