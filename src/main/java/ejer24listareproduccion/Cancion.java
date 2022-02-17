@@ -24,7 +24,7 @@ public class Cancion {
     
     
     
-    //HASH E EQUALS
+    //HASH  EQUALS
     @Override
     public int hashCode() {
         int hash = 5;
@@ -46,7 +46,7 @@ public class Cancion {
             return false;
         }
         final Cancion other = (Cancion) obj;
-        return Objects.equals(this.nombre, other.autor); //PARA BUSCAR POR AUTOR 
+        return Objects.equals(this.nombre, other.nombre); //PARA BUSCAR POR AUTOR 
     }
     
     
