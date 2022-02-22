@@ -51,9 +51,16 @@ public class Matriz {
     public static void mostrarColumna(int columna, int[][]mare){
         
         for (int i = 0; i < mare.length; i++) {     //filas
-            for (int j = 0; j < mare.length; j++) {      //columnass
+            System.out.println();
+            for (int j = 0; j < mare[i].length; j++) {      //columnass
                 System.out.print("\n" + mare[columna][i]+", ");
             }
         }
     }
+    
+    
+    
+    
+    
+    
 }
